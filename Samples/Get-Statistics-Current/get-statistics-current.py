@@ -6,12 +6,6 @@ with manager.connect(host="localhost", port=2022, username="admin", password="ad
     stats_filter = """
                       <statistics xmlns="http://btisystems.com/ns/atlas">
                       	<current>
-                      		<entity>
-                      			<entityName>och:1/1/2/1/1.1</entityName>
-                      			<binLength>
-									           <length>unTimed</length>
-								            </binLength>
-                      		</entity>
                       	</current>
                       </statistics>
                   """
