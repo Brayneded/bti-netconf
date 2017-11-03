@@ -10,6 +10,12 @@ with manager.connect(host="localhost", port=2022, username="admin", password="ad
                       	<current>
                       		<entity>
                       			<entityName>10ge:1/1/1/1/1</entityName>
+                            <binLength>
+                              <length>unTimed</length>
+                                <statisticList>
+                                 <statisticPoint>opr</statisticPoint>
+                                </statisticList>
+                            </binLength>
                       		</entity>
                       	</current>
                       </statistics>
