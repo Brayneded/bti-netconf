@@ -1,0 +1,1 @@
+This script will return the current PM data for all entities (elements) and time intervals (unTimed, 1m, 5m, 1D). This has a habbit of timing out the NETCONF session/over-running the ncclient buffer. Will need further work in future. 
